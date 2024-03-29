@@ -75,7 +75,7 @@
 `InternEro`训练框架：具有**长序列训练**、**容错**、和**交互式训练**的功能
   
 `LLaMA`设计原则：集成并重新配置矩阵，提高分布式环境的灵活性与效率
-![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
+![alt](URL title)
 
 
 
