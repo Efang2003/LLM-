@@ -106,19 +106,25 @@
   
 结果： 
   
-![alt](images/1.png)
+![alt](images/7.png)
 * 部署实战营优秀作品`八戒-Chat-1.8B`模型
 
   
 结果：
 
-![alt](images/2.png)
+![alt](images/8.png)
 * 通过`InternLM2-Chat-7B`运行 ***Lagent*** 智能体 Demo
 
 结果：  
 
 ![alt](images/3.png)
 * 实践部署`浦语·灵笔2`模型
+
+结果：  
+
+![alt](images/1.png)  
+  
+![alt](images/2.png)
 
 
 
