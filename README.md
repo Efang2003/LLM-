@@ -148,7 +148,8 @@
 #### 工作原理&流程 
 
 ![alt](images/9.png)  
-
+![alt](images/RAG工作流程.png)  
+ 
 #### 发展进程
 * `Naive RAG`
   * 问答系统
@@ -181,7 +182,9 @@
 * 自适应检索（Adaptive Optimization）
   * Flare，Self-RAG
   * 使用LLMs主动决定检索的最佳时机
-#### RAG VS 微调（Fine-tuning）
+#### RAG VS 微调（Fine-tuning） 
+![alt](images/RAG和微调对比.png)  
+
 #### 评估框架和基准测试
 * 经典评估指标：`准确率` `召回率` `F1分数` `BLEU分数` `ROUGE分数`
 * RAG评测框架
