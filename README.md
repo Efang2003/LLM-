@@ -122,14 +122,65 @@
 
 结果：  
 
-![alt](images/1.png)  
+![alt](images/4.png)  
   
-![alt](images/2.png)
+![alt](images/5.png)
 
 
+## 第三课—— *RAG智能助手：以茴香豆为例*
+### RAG介绍
+#### 技术概览
+* 定义: ***RAG***是一种结合了检索和生成的技术，旨在通过利用**外部知识库**来增强大语言模型的性能。它通过检索与用户输入相关的信息片段生成更准确的答案
+* 应用
+  * 问答系统
+  * 文本生成
+  * 信息检索
+  * 图片描述
 
   
+***向量数据库（vector-DB）***：
+* 数据存储：将文本等数据通过预训练模型转为固定长度的向量表示
+* 相似性检索：根据用户的查询向量，使用向量数据库找出最相关向量的过程。通常通过计算*余弦相似度*或其他相似性度量来完成
+* 向量表示的优化：使用更高级的文本编码技术，如句子嵌入或段落嵌入
+#### 工作原理&流程
+#### 发展进程
+* `Naive RAG`
+  * 问答系统
+  * 信息检索
+* `Advanced RAG`
+  * 摘要生成
+  * 内容推荐
+* `Modular RAG`
+  * 多模态任务
+  * 对话系统
 
+#### 常见优化方法
+* 嵌入优化（Embedding Optimization）
+  * 结合稀疏和密集检索
+  * 多任务
+* 索引优化（Indexing Optimization）
+  * 细粒度分割（Chunk）
+  * 元数据
+* 查询优化（Query Optimization）
+  * 查询扩展、转换
+  * 多查询
+* 上下文管理（Context Optimization）
+  * 重排（remark）
+  * 上下文选择/压缩
+* 迭代检索（Iterative Optimization）
+  * 根据初始查询和迄今为止生成的文本进行重复搜索
+* 递归检索（Recursive Optimization）
+  * 迭代细化搜索查询
+  * 链式推理（Chain-of-Thought）指导检索过程
+* 自适应检索（Adaptive Optimization）
+  * Flare，Self-RAG
+  * 使用LLMs主动决定检索的最佳时机
+#### RAG VS 微调（Fine-tuning）
+#### 评估框架和基准测试
+* 经典评估指标：`准确率` `召回率` `F1分数` `BLEU分数` `ROUGE分数`
+* RAG评测框架
+   * 基准测试 - RGB RECALL CRUD
+   * 评测工具 - RAGAS ARES Trulens
 
 
 
