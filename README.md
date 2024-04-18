@@ -253,8 +253,8 @@
 #### LLaVA方案
 给LLM增加视觉能力的过程，即是训练`Image projector`文件的过程；  
 该过程分为两个阶段：`Pretrain`和`Finetune`
-* 训练阶段示意图
-* 测试阶段示意图
+* *Pretrain*阶段示意图
+* *Finetune*阶段示意图
 
 
 
