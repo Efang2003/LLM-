@@ -231,7 +231,8 @@
 `对话模版`是为了让LLM区分出**System**、**User**和**Assistant**
 #### LoRA & QLoRA
 `LoRA`通过在原本的Linear旁，新增一个支路`Adapter`，包含两个连续的小Linear，参数量远小于之前的Linear，能大幅降低训练的显存消耗  
-对比：
+对比：  
+![alt](images/对比.jpg)   
 
 ### XTuner介绍
 #### 简介
@@ -249,12 +250,17 @@
 * `DeepSpeed ZeRO`  
 通过将训练过程中的参数、梯度和优化器状态切片保存，能够在多GPU训练时显著节省显存
 ### 多模态LLM
-#### 简介
+#### 简介  
+![alt](images/简介.jpg)  
 #### LLaVA方案
 给LLM增加视觉能力的过程，即是训练`Image projector`文件的过程；  
 该过程分为两个阶段：`Pretrain`和`Finetune`
 * *Pretrain*阶段示意图
+
+![alt](images/P.jpg) 
 * *Finetune*阶段示意图
+
+![alt](images/F.jpg) 
 
 
 
