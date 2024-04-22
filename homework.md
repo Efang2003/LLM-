@@ -38,3 +38,15 @@
 ![alt](images/优化前.png) 
 #### 优化后
 ![alt](images/优化后.png) 
+
+
+
+## 第六课作业
+### Lagent web demo
+
+#### `Lagent`自定义工具调用
+#### `AgentLego`直接使用部分
+![alt](images/AgentLego直接使用部分1.png) 
+![alt](images/AgentLego直接使用部分2.png) 
+#### AgentLego WebUI
+
