@@ -329,8 +329,14 @@
 * 能运用推理能力理解信息、解决问题、产生推断、决定动作
 #### 智能体范式
 * `AutoGPT`
+
+![alt](images/Auto.jpg) 
 * `ReWoo`
+
+![alt](images/ReWoo.jpg) 
 * `ReAct`
+
+![alt](images/ReAct.jpg) 
 ### `Lagent`&`AgentLego`
 * ***Lagent***
   轻量级开源智能体框架，旨在让用户可以高效地构建基于大语言模型的智能体
@@ -341,6 +347,8 @@
   * 支持多种智能体框架
   * 提供大量视觉、多模态领域前沿算法
 * **两者关系**
+
+![alt](images/两者关系.png) 
 
 
 
