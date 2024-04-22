@@ -45,6 +45,7 @@
 ### Lagent web demo
 ![alt](images/Lagentwebdemo.png) 
 ### `Lagent`自定义工具调用
+![alt](images/Lagent自定义工具调用.png) 
 ### `AgentLego`直接使用部分
 ![alt](images/AgentLego直接使用部分1.png) 
 ![alt](images/AgentLego直接使用部分2.png) 
