@@ -51,3 +51,9 @@
 ![alt](images/AgentLego直接使用部分2.png) 
 ### AgentLego WebUI
 ![alt](images/AgentLegoWebUI.png) 
+
+
+## 第七课作业
+### 使用 OpenCompass 评测 internlm2-chat-1_8b 模型在 C-Eval 数据集上的性能
+**结果**
+
